@@ -1,0 +1,88 @@
+:root{
+    --primary-light: #BEBCBB;
+    --primary-normal: #363636;
+    --primary-dark: #000000;
+    --secondary-light: #2D64E6;
+    --secondary-normal: #00439C;
+    --secondary-dark: #161C3B;
+
+}
+
+.bg-primary-dark{
+    background-color: var(--primary-dark);
+}
+
+.bg-primary-normal{
+    background-color: var(--primary-normal);
+}
+
+.bg-primary-light{
+    background-color: var(--primary-light);
+}
+
+.bg-secondary-dark{
+    background-color: var(--secondary-dark);
+}
+
+.bg-secondary-normal{
+    background-color: var(--secondary-normal);
+}
+
+.bg-secondary-light{
+    background-color: var(--secondary-light);
+}
+
+.bg-white{
+    background-color: #FFF;
+}
+
+.btn-rounded{
+    border-radius: 20px;
+}
+
+.top-header img{
+    width: 90px;
+}
+
+.bottom-header .dropdown-top,
+.bottom-header .dropdown-bottom{
+    list-style-type: none;
+}
+
+.bottom-header .dropdown-bottom li a::before{
+    content: '\2022';
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.4em;
+    color: var(--secondary-light);
+}
+
+.bottom-header .dropdown_item{
+    max-width: 60px ;
+}
+
+.first-section{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 40px;
+}
+
+.first-section img{
+    width: 250px;
+}
+
+.second-section img{
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fourth-section{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
