@@ -86,3 +86,19 @@
     background-repeat: no-repeat;
 
 }
+
+
+footer ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom:5px;    
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+footer ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
