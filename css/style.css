@@ -5,7 +5,6 @@
     --secondary-light: #2D64E6;
     --secondary-normal: #00439C;
     --secondary-dark: #161C3B;
-
 }
 
 .bg-primary-dark{
@@ -79,6 +78,17 @@
     cursor: pointer;
 }
 
+.third-section .third .card{
+    border: 0px;
+    cursor: pointer;
+}
+
+.third-section .third .card img{
+    opacity: 0.6;
+    max-width: 150px;
+}
+
+
 .fourth-section{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -87,6 +97,9 @@
 
 }
 
+.fifth-section .fifth .card img{
+    border-radius: 20px;
+}
 
 footer ul li{
     list-style: none;
@@ -101,4 +114,24 @@ footer ul li a{
 footer ul li:hover{
     color: white;
     text-decoration: underline;
+}
+
+
+
+.effect-card{
+    transition: transform 0.2s ease-out 0.2s;
+
+}
+
+.effect-card:hover {
+    transform: translateY(-10px);
+}
+
+.effect-component {
+    transition: all 0.2s ease-out 0.2s;
+}
+
+.effect-component:hover {
+    box-shadow: 0px 35px 0px -30px var(--secondary-light);
+    opacity: 1;
 }
